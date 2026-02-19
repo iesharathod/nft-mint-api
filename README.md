@@ -1,6 +1,6 @@
 # NFT Minting API – ERC-721 Implementation
 
-## 📌 Overview
+##  Overview
 
 This project implements a minimal NFT minting system using:
 
@@ -13,7 +13,7 @@ The backend exposes a `/mint` API endpoint that interacts with the deployed smar
 
 ---
 
-## 🔗 Deployed Contract
+##  Deployed Contract
 
 **Network:** Ethereum Sepolia  
 **Contract Address:**  
@@ -24,7 +24,7 @@ https://sepolia.etherscan.io/address/0xD71343755334f88D8C01A85082D59B51c2B147bD
 
 ---
 
-## 📦 Smart Contract Features
+##  Smart Contract Features
 
 - ERC-721 standard implementation
 - Public mint function
@@ -39,7 +39,7 @@ https://sepolia.etherscan.io/address/0xD71343755334f88D8C01A85082D59B51c2B147bD
 
 ---
 
-## ⚠️ Network Note
+##  Network Note
 
 The assignment requested deployment on Polygon Mumbai.
 
@@ -53,20 +53,20 @@ The contract remains fully Polygon-compatible and can be deployed on Polygon whe
 
 ## 🛠 Setup Instructions
 
-### 1️⃣ Clone Repository
+### 1️ Clone Repository
 
 ```bash
 git clone <your-repo-url>
 cd nft-mint-api
 ```
 
-### 2️⃣ Install Dependencies
+### 2️ Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 3️⃣ Configure Environment Variables
+### 3️ Configure Environment Variables
 
 Create a `.env` file in the root directory:
 
@@ -83,7 +83,7 @@ CONTRACT_ADDRESS=0xD71343755334f88D8C01A85082D59B51c2B147bD
 
 ---
 
-## 🚀 Run the Backend API
+##  Run the Backend API
 
 Start the server:
 
@@ -99,7 +99,7 @@ http://localhost:3000
 
 ---
 
-## 🔥 Mint NFT via API
+##  Mint NFT via API
 
 ### Endpoint
 
@@ -135,7 +135,7 @@ Invoke-RestMethod -Uri "http://localhost:3000/mint" `
 
 ---
 
-## 🧪 Hardhat Tests
+##  Hardhat Tests
 
 The test suite validates:
 
@@ -152,7 +152,7 @@ npx hardhat test
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 contracts/
@@ -169,7 +169,7 @@ README.md
 
 ---
 
-## 🔐 Security Considerations
+##  Security Considerations
 
 - Private key stored securely in `.env`
 - `.env` excluded from version control
@@ -179,7 +179,7 @@ README.md
 
 ---
 
-## ✅ Evaluation Criteria Coverage
+##  Evaluation Criteria Coverage
 
 - Correct ERC-721 implementation
 - Functional minting via Node.js API
