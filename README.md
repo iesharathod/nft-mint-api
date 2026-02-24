@@ -41,7 +41,7 @@ https://sepolia.etherscan.io/address/0xD71343755334f88D8C01A85082D59B51c2B147bD
 
 ##  Network Note
 
-The assignment requested deployment on Polygon Mumbai.
+The deployment on Polygon Mumbai.
 
 However, Polygon testnet faucet limitations currently provide only 0.1 POL per wallet, which is insufficient to deploy a full ERC-721 contract under current network base fee conditions.
 
