@@ -17,10 +17,10 @@ The backend exposes a `/mint` API endpoint that interacts with the deployed smar
 
 **Network:** Ethereum Sepolia  
 **Contract Address:**  
-0xD71343755334f88D8C01A85082D59B51c2B147bD
+0x74609fF0b5ed75674C500ce762bb1de3d7F91c18
 
 **Explorer Link:**  
-https://sepolia.etherscan.io/address/0xD71343755334f88D8C01A85082D59B51c2B147bD
+https://sepolia.etherscan.io/address/0x74609fF0b5ed75674C500ce762bb1de3d7F91c18#code
 
 ---
 
